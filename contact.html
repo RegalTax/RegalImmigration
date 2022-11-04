@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family= Arial" rel="stylesheet" />
+        <meta charset="UTF-8">
+        <title>Contact - Regal Immigration Advisory</title>
+        <link href="assets/css/reset.css" rel="stylesheet">
+        <link href="assets/css/normalize.css" rel="stylesheet">
+        <link href="assets/css/header.css" rel="stylesheet">
+        <link href="assets/css/contact.css" rel="stylesheet">
+        <link href="assets/css/footer.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="cabecera">
+                <h1><img src="./img/LOGO REGAL IMMIGRATION ADVISORY GROUP.png" alt="Logo Company" /></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="map.html">Map &nbsp;&nbsp;</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form id="contactform" action="https://formsubmit.io/send/f05d4f97-9e34-4f61-966c-252697edf302" method="POST">
+                <label for="name">Name</label><input name="name" type="text" id="name" class="box"> 
+                <label for="email">Email</label><input name="email" type="email" id="email" class="box">
+                <label for="email">Phone</label><input name="phone" type="phone" id="phone" class="box">
+                <label for="comment">Message</label><textarea name="comment" id="comment" rows="5" class="box"></textarea>
+                <br></br>           
+                <text>How would you like us to contact you?</text>
+                <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email"> Email</label>
+                <label for="radio-phone"><input type="radio" name="contact" value="phone" id="radio-phone"> Phone</label>
+                <label for="radio-whatsapp"><input type="radio" name="contact" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+                <text>What time do you prefer to be contacted?</text>
+                <br></br>
+                    <select>
+                        <option>Morning</option>
+                        <option>Afternoon</option>
+                        <option>Night</option>
+                    </select>            
+                <br></br>              
+                <input name="_formsubmit_id" type="text" style="display:none">
+                <input value="Submit" type="submit" class="send">
+            </form>
+        </main>
+        <footer>
+            <img src="img/Dapango-Logo2.png">
+            <p class="copyright">&copy Dapango 2022</p>
+        </footer> 
+    </body>
+</html>
+            
